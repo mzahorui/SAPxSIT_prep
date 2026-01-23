@@ -32,6 +32,6 @@
     // 1. Config git user
     // 2. Clone dotfiles repo explicitly to ~/.dotfiles (Inside container only)
     // 3. Symlink the configs from ~/.dotfiles to ~
-    "postCreateCommand": "git config --global user.name 'mzahorui' && git config --global user.email 'm42240222@gmail.com' && git clone <https://github.com/mzahorui/dotfiles.git> ~/.dotfiles && rm -f ~/.zshrc ~/.tmux.conf && ln -s ~/.dotfiles/.zshrc ~/.zshrc && ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf"
+    "postCreateCommand": "git config --global user.name 'mzahorui' && git config --global user.email 'm42240222@gmail.com' && git clone git@github.com:mzahorui/dotfiles.git ~/.dotfiles && rm -f ~/.zshrc ~/.tmux.conf && ln -s ~/.dotfiles/.zshrc ~/.zshrc && ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf"
   }
   
