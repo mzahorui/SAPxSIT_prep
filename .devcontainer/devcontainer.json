@@ -21,7 +21,7 @@
           "SAPOS.yeoman-ui",
           "dbaeumer.vscode-eslint",
           "qwtel.sqlite-viewer",
-          "vscodevim.vim",  // Lightweight Vim emulation
+          "vscodevim.vim", 
           "eamodio.gitlens"
         ]
       }
