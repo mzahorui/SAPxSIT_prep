@@ -22,7 +22,8 @@
           "dbaeumer.vscode-eslint",
           "qwtel.sqlite-viewer",
           "vscodevim.vim", 
-          "eamodio.gitlens"
+          "eamodio.gitlens",
+          "SAPSE.sap-ux-fiori-tools-extension-pack"
         ]
       }
     },
